@@ -9,11 +9,12 @@ const PopoverStyle = {
 };
 
 const PopoverInnerStyle = {
-  width: 200,
-  padding: "10px 14px",
+  width: 250,
+  padding: "0px 0px",
   color: "#666",
   backgroundColor: "#fff",
-  boxShadow: "0 0 30px rgba(39, 43, 55, 0.15)"
+  boxShadow: "0 0 30px rgba(39, 43, 55, 0.15)",
+  borderRadius: "5px"
 };
 
 const PopoverArrowStyle = {
@@ -28,22 +29,22 @@ const PopoverArrowStyle = {
 
 const PlacementStyles = {
   left: {
-    tooltip: {marginLeft: -3, padding: "0 5px"},
+    tooltip: { marginLeft: -3, padding: '0 5px' },
     arrow: {
-      right: 0, marginTop: -5, borderWidth: "5px 0 5px 5px", borderLeftColor: "#fff"
+      right: 0, marginTop: -5, borderWidth: '5px 0 5px 5px', borderLeftColor: '#fff'
     }
   },
   right: {
-    tooltip: {marginRight: 3, padding: "0 5px"},
-    arrow: {left: 0, marginTop: -5, borderWidth: "5px 5px 5px 0", borderRightColor: "#fff"}
+    tooltip: { marginRight: 3, padding: '0 5px' },
+    arrow: { left: 0, marginTop: -5, borderWidth: '5px 5px 5px 0', borderRightColor: '#fff' }
   },
   top: {
-    tooltip: {marginTop: -3, padding: "5px 0"},
-    arrow: {bottom: 0, marginLeft: -5, borderWidth: "5px 5px 0", borderTopColor: "#fff"}
+    tooltip: { marginTop: -3, padding: '5px 0' },
+    arrow: { bottom: 0, marginLeft: -5, borderWidth: '5px 5px 0', borderTopColor: '#fff' }
   },
   bottom: {
-    tooltip: {marginBottom: 3, padding: "5px 0"},
-    arrow: {top: 0, marginLeft: -5, borderWidth: "0 5px 5px", borderBottomColor: "#fff"}
+    tooltip: { marginBottom: 3, padding: '5px 0' },
+    arrow: { top: 12, marginLeft: -5, borderWidth: '0 5px 5px', borderBottomColor: '#fff' }
   }
 };
 
