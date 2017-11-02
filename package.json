@@ -9,7 +9,7 @@
   "main": "lib/Popover.js",
   "dependencies": {
     "prop-types": "^15.6.0",
-    "react-overlays": "github:dcoric/react-overlays",
+    "react-overlays": "0.8.3",
     "webpack": "3.6.0"
   },
   "devDependencies": {
